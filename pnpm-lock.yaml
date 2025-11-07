@@ -11,12 +11,6 @@ importers:
       next:
         specifier: 16.0.2-canary.9
         version: 16.0.2-canary.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      react:
-        specifier: 19.2.0
-        version: 19.2.0
-      react-dom:
-        specifier: 19.2.0
-        version: 19.2.0(react@19.2.0)
     devDependencies:
       '@types/node':
         specifier: 22.5.4
