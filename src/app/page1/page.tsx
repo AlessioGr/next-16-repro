@@ -1,7 +1,7 @@
 import { subscribeToHMR } from './subscribeToHMR'
 import { Component } from '../../Component'
 
-const RootLayout = async ({ Component }: any) => {
+const RootPage = async ({ Component }: any) => {
   await subscribeToHMR()
 
   return (
@@ -14,7 +14,7 @@ const RootLayout = async ({ Component }: any) => {
 }
 
 const Page = () => {
-  return <RootLayout Component={Component} />
+  return <RootPage Component={Component} />
 }
 
 export default Page
